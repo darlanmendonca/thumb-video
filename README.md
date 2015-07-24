@@ -1,9 +1,37 @@
-## Install
+## Usage
 
-npm i --save thumb-video
+First install
 
 ```sh
-ffmpeg -i ~/Desktop/videos/0205761af6b3a140722a446466626b1d.mov -ss 00:01 -r 1 
--an -vframes 1 -f mjpeg ~/Desktop/thumb.jpg
+npm i --save thumb-video
 ```
 
+and in your file:
+
+```js
+var thumb = require('thumb-video');
+```
+
+Then, thumb receive 2 arguments, options and callback (optional);
+
+The first argument options, have theses keys:
+
+file - path to movie you want generate thumbs
+output - path to output thumbs
+duration - time of frame
+<!-- frames - amount of frames you want -->
+
+### Tests
+I use mocha for tests, first install mocha as global
+
+```sh
+npm i -g mocha
+```
+
+Then run tests with:
+
+```sh
+npm test
+```
+
+Enjoy!
