@@ -1,0 +1,25 @@
+{
+  "name": "thumb-video",
+  "version": "0.0.0",
+  "description": "Create thumbs from videos",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec test.js",
+    "start": "nodemon index.js --quiet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darlanmendonca/thumb-video.git"
+  },
+  "keywords": [
+    "thumb",
+    "video",
+    "mov",
+    "mp4"
+  ],
+  "author": "Darlan Mendonça <darlanmendonca@gmail.com> (https://github.com/darlanmendonca)",
+  "bugs": {
+    "url": "https://github.com/darlanmendonca/thumb-video/issues"
+  },
+  "homepage": "https://github.com/darlanmendonca/thumb-video"
+}
